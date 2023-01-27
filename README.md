@@ -20,6 +20,9 @@ pip install ultralytics==8.0.0
 
 - Do Tracking with mentioned command below
 ```
+
+yolo task=detect mode=predict model="./yolov8s_playing_cards.pt" source="./assets/test.jpg"
+
 python filename.py
 ```
 
